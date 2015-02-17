@@ -1,0 +1,15 @@
+Sketch uses 1 030 bytes (3%) of program storage space. Maximum is 32 256 bytes.
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2 039 bytes for local variables. Maximum is 2 048 bytes.
+
+const int led = 13;
+
+void setup() {
+  pinMode(led,OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led,HIGH);
+  delay(1000);
+  digitalWrite(led,LOW);
+  delay(1000);
+}

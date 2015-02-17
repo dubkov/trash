@@ -1,0 +1,30 @@
+
+sketch_feb17a.cpp.o:     file format elf32-avr
+
+
+Disassembly of section .text.setup:
+
+00000000 <setup>:
+   0:	61 e0       	ldi	r22, 0x01	; 1
+   2:	8d e0       	ldi	r24, 0x0D	; 13
+   4:	0c 94 00 00 	jmp	0	; 0x0 <setup>
+
+Disassembly of section .text.loop:
+
+00000000 <loop>:
+   0:	61 e0       	ldi	r22, 0x01	; 1
+   2:	8d e0       	ldi	r24, 0x0D	; 13
+   4:	0e 94 00 00 	call	0	; 0x0 <loop>
+   8:	68 ee       	ldi	r22, 0xE8	; 232
+   a:	73 e0       	ldi	r23, 0x03	; 3
+   c:	80 e0       	ldi	r24, 0x00	; 0
+   e:	90 e0       	ldi	r25, 0x00	; 0
+  10:	0e 94 00 00 	call	0	; 0x0 <loop>
+  14:	60 e0       	ldi	r22, 0x00	; 0
+  16:	8d e0       	ldi	r24, 0x0D	; 13
+  18:	0e 94 00 00 	call	0	; 0x0 <loop>
+  1c:	68 ee       	ldi	r22, 0xE8	; 232
+  1e:	73 e0       	ldi	r23, 0x03	; 3
+  20:	80 e0       	ldi	r24, 0x00	; 0
+  22:	90 e0       	ldi	r25, 0x00	; 0
+  24:	0c 94 00 00 	jmp	0	; 0x0 <loop>
